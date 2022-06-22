@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/hijau_muda">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/profile_header_cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp">
+        <ImageView
+            android:id="@+id/profile_iv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_profile"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <TextView
+            android:id="@+id/activity_home_welcome_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello, User!"
+            android:fontFamily="@font/bold"
+            android:textSize="32sp"
+            android:textColor="#59B268"
+            app:layout_constraintTop_toTopOf="@id/profile_iv"
+            app:layout_constraintBottom_toBottomOf="@id/profile_iv"
+            app:layout_constraintStart_toEndOf="@id/profile_iv"
+            android:layout_marginStart="32dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_edufree"
+        app:tabTextColor="@color/hijau_tua"
+        app:tabIconTintMode="multiply"
+        android:layout_below="@id/profile_header_cl"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_Pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_below="@id/tab_layout" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@color/hijau_muda"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"
+        android:background="@color/hijau_muda"/>
+
+</RelativeLayout>

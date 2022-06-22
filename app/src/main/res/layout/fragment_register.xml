@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterFragment"
+    android:padding="16dp"
+    android:background="#E9FFFD">
+
+    <TextView
+        android:id="@+id/fragment_register_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/bold"
+        android:text="Register"
+        android:textColor="#59B268"
+        android:textSize="56sp" />
+
+    <EditText
+        android:id="@+id/fragment_register_username_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/fragment_register_title_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/edufree_edittext_theme"
+        android:drawableStart="@color/black"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/regular"
+        android:hint="Username"
+        android:textColorHint="@color/hijau_tua"/>
+    <EditText
+        android:id="@+id/fragment_register_phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edufree_edittext_theme"
+        android:hint="Phone Number"
+        android:drawableStart="@color/black"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/regular"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fragment_register_username_et"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@color/hijau_tua"/>
+    <EditText
+        android:id="@+id/fragment_register_email_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edufree_edittext_theme"
+        android:hint="Email Address"
+        android:drawableStart="@color/black"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/regular"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fragment_register_phone_et"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@color/hijau_tua"/>
+
+    <EditText
+        android:id="@+id/fragment_register_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/fragment_register_email_et"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edufree_edittext_theme"
+        android:drawableStart="@color/black"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/regular"
+        android:hint="Create Password"
+        android:textColorHint="@color/hijau_tua"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/fragment_register_repassword_et"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/edufree_edittext_theme"
+        android:hint="Re-enter Password"
+        android:drawableStart="@color/black"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/regular"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/fragment_register_password_et"
+        android:layout_marginVertical="8dp"
+        android:textColorHint="@color/hijau_tua"
+        android:inputType="textPassword"/>
+
+    <android.widget.Button
+        android:id="@+id/fragment_register_register_bt"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_below="@id/fragment_register_repassword_et"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edufree_button_theme"
+        android:fontFamily="@font/regular"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginVertical="16dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/fragment_register_separate_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/fragment_register_register_bt"
+        android:layout_marginVertical="16dp">
+        <View
+            android:layout_width="128dp"
+            android:layout_height="2dp"
+            android:background="#59B268"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or register with"
+            android:textColor="#59B268"
+            android:textSize="16sp"
+            android:layout_marginHorizontal="16dp"/>
+        <View
+            android:layout_width="128dp"
+            android:layout_height="2dp"
+            android:background="#59B268"/>
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/fragment_register_google_bt"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/fragment_register_separate_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edufree_button_google_theme"
+        android:drawableStart="@drawable/google_logo"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/regular"
+        android:gravity="fill_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="Continue with Google"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <android.widget.Button
+        android:id="@+id/fragment_register_facebook_bt"
+        android:layout_width="280dp"
+        android:layout_height="36dp"
+        android:layout_below="@id/fragment_register_google_bt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edufree_button_facebook_theme"
+        android:drawableStart="@drawable/facebook_logo"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/regular"
+        android:gravity="fill_vertical"
+        android:paddingHorizontal="16dp"
+        android:text="Continue with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

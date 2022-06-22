@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/circle_profile.xml" value="0.2555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/edufree_button_facebook_theme.xml" value="0.2505" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/edufree_button_google_theme.xml" value="0.2505" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/edufree_button_theme.xml" value="0.2505" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/edufree_edittext_theme.xml" value="0.2505" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/edufree_textview_theme.xml" value="0.2505" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/progress_bt_res.xml" value="0.2555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/drawable/selector.xml" value="0.166" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/font/font.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_auth.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_bottom_nav.xml" value="0.136" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_calendar.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_home.xml" value="0.144" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_main_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_notifications.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_calendar.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_event.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_gear.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_homework.xml" value="0.2359375" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_login.xml" value="0.136" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_progress.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/layout/fragment_welcome.xml" value="0.12" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/menu/bottomnav_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/menu/menu_navigation.xml" value="0.1875" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/EduFree/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2555" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

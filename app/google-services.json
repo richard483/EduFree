@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295040592715",
+    "project_id": "edufree-6bcaa",
+    "storage_bucket": "edufree-6bcaa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295040592715:android:f299170d32ed7750a7d6ce",
+        "android_client_info": {
+          "package_name": "com.example.edufree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295040592715-2bkjm02ugv85230smo25co9gcg89eudt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7NLIRX-kf649XVJSTyDvRMuH8FbJz6Z0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295040592715-2bkjm02ugv85230smo25co9gcg89eudt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_calendar"
+        android:title="Calendar"
+        android:icon="@drawable/calendar_vector"/>
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/home_vector"/>
+    <item
+        android:id="@+id/navigation_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/notifications_vector"/>
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings_vector"/>
+</menu>
